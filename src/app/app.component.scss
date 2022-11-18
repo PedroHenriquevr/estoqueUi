@@ -1,3 +1,12 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+.fundo {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.95)),
+    url(./../assets/interior-of-large-distribution-warehouse-with-shelves-stacked-with-palettes-and-goods-ready-for-the-market.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

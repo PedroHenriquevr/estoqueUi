@@ -5,7 +5,10 @@ const routes: Routes = [
   {
     path: 'categoria',
     loadChildren: () => import('./categoria/categoria.module').then(m => m.CategoriaModule)
-
+  },
+  {
+    path: 'produto',
+    loadChildren: () => import('./produtos/produtos.module').then(m => m.ProdutosModule)
   }
 ];
 

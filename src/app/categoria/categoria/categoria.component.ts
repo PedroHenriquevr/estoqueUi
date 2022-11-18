@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoriaComponent implements OnInit {
   Categorias: Categoria[] = [
-    {id: 1, categoria: 'Pedro'},
-    {id: 2, categoria: 'Arthur'},
-    {id: 3, categoria: 'Luiz Felipe'},
-    {id: 4, categoria: 'Victor'}
+    {id: 1, categoria: 'Eletrodomésticos'},
+    {id: 2, categoria: 'Brinquedos'},
+    {id: 3, categoria: 'Bicicletas'},
+    {id: 4, categoria: 'Utensílios'}
   ];
   displayedColumns: string[] = ['id', 'categoria'];
 
