@@ -1,10 +1,6 @@
 <div class="fundo">
   <div class="titulo">
-      <app-toolbar></app-toolbar>
+    <app-toolbar></app-toolbar>
   </div>
-  <button (click)="categoria()">Categoria</button>
-  <button (click)="produtos()">Produtos</button>
-
-  <app-categoria *ngIf="catego"></app-categoria>
-  <app-produto *ngIf="produto"></app-produto>
+  <router-outlet></router-outlet>
 </div>

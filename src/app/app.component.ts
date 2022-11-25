@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToolService } from './shared/toolbar/tool.service';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'estoqueUi';
-  catego: boolean = false;
-  produto: boolean = false;
-  categoria(){
-    this.catego = !this.catego;
-  }
-  produtos(){
-    this.produto = !this.produto;
-  }
+
+  constructor(private ToolService: ToolService) { }
+
+  catego: boolean = this.ToolService.catego;
+  produto: boolean = this.ToolService.produto;
 }

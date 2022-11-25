@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { CategoriaModule } from '../categoria/categoria.module';
+import { ProdutosModule } from '../produtos/produtos.module';
 
 
 
@@ -9,7 +11,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     ToolbarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CategoriaModule,
+    ProdutosModule,
   ],
   exports: [
     ToolbarComponent
