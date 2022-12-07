@@ -1,3 +1,4 @@
+import { SignUpModule } from './sign-up/sign-up.module';
 import { CoreModule } from './core/core.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -13,7 +14,7 @@ import { SharedModule } from './shared/shared.module';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -24,6 +25,7 @@ import { SharedModule } from './shared/shared.module';
         CoreModule,
         CategoriaModule,
         ProdutosModule,
+        SignUpModule,
         SharedModule
     ]
 })

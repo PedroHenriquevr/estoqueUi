@@ -1,0 +1,14 @@
+.footer {
+  background-color: rgb(20, 20, 20);
+  height: 10rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+  h1 {
+    font-family: "Bungee", cursive;
+  }
+}

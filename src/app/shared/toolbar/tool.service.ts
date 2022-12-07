@@ -5,9 +5,9 @@ import { Router } from '@angular/router';
   providedIn: 'root',
 })
 export class ToolService {
-
   catego: boolean = false;
   produto: boolean = false;
+
 
   constructor( private router: Router ) {}
 
@@ -17,7 +17,12 @@ export class ToolService {
   produtos() {
     this.router.navigate(['/produto']);
   }
-
+  principal(){
+    this.router.navigate(['/'])
+  }
+  registro(){
+    this.router.navigate(['/cadastro'])
+  }
 
 
 }

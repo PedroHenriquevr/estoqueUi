@@ -11,6 +11,4 @@ export class AppComponent {
 
   constructor(private ToolService: ToolService) { }
 
-  catego: boolean = this.ToolService.catego;
-  produto: boolean = this.ToolService.produto;
 }

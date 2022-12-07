@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ProdutosRoutingModule } from './produtos-routing.module';
 import { ProdutoComponent } from './produto/produto.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ProdutoComponent } from './produto/produto.component';
   ],
   imports: [
     CommonModule,
-    ProdutosRoutingModule
+    ProdutosRoutingModule,
+    MatTableModule
   ],
   exports: [
     ProdutoComponent

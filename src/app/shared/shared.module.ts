@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { CategoriaModule } from '../categoria/categoria.module';
 import { ProdutosModule } from '../produtos/produtos.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
-    ToolbarComponent
+    ToolbarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -16,7 +18,8 @@ import { ProdutosModule } from '../produtos/produtos.module';
     ProdutosModule,
   ],
   exports: [
-    ToolbarComponent
+    ToolbarComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
